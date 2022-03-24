@@ -1,0 +1,28 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max">
+    <center>
+    <h1 class="btn btn-info heading">AI video finder</h1>
+    <h3>the input which you will give should match the name present in CoCo model then only it will detect</h3>
+    <br><br>
+    <h3 id="name">Object Name</h3>
+    <input type="text" id="user_name" class="form-control" placeholder="Object Name">
+    <button onclick="start()" class="btn btn-success" id="start">Start</button>
+    </center>
+    <script src="main.js"></script>
+    </body>
+</html>
